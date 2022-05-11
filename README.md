@@ -15,7 +15,7 @@ The Raspberry Pi requires that you install a few system packages before you get 
 RUN THESE COMMANDS.
 
     $ sudo apt-get install libhdf5-dev libhdf5-serial-dev libhdf5-103
-    $ sudo apt-get install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5
+    $ sudo apt-get install libqt5gui5 libqt5webkit5 libqt5test5 python3-pyqt5
     $ sudo apt-get install libatlas-base-dev
     $ sudo apt-get install libjasper-dev
 
@@ -41,7 +41,7 @@ and append these lines to the end:
     export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
     export WORKON_HOME=$HOME/.virtualenvs
     export VIRTUALENVWRAPPER_VIRTUALENV=/home/YOUR_USERNAME/.local/bin/virtualenv
-    source /usr/local/bin/virtualenvwrapper.sh
+    source /home/YOUR_USERNAME/.local/bin/virtualenvwrapper.sh
 
 remember to put your username in the YOUR_USERNAME field
 
