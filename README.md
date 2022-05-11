@@ -69,7 +69,7 @@ Clone The Repo:
         
 Change your directory to the cloned repo and create a Python virtual environment named 'test'
         
-        $ cd Face-Mask-Detection-Raspberry-Pi
+        $ cd Face-Mask-Detection-Raspberry-pi-2022
         $ mkvirtualenv test
 
 Now, run the following command in your Terminal/Command Prompt to install the libraries required
