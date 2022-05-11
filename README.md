@@ -65,7 +65,7 @@ You now have access to new terminal commands:
 
 Clone The Repo:
 
-        $ git clone https://github.com/inmicro/Face-Mask-Detection-Raspberry-Pi
+        $ git clone https://github.com/zenakhra/Face-Mask-Detection-Raspberry-pi-2022.git
         
 Change your directory to the cloned repo and create a Python virtual environment named 'test'
         
